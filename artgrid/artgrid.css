@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(to bottom right, #c68400, pink, blue, purple, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    text-align: center;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+h1 {
+    color: #fff;
+}
